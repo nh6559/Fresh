@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php
 function isBase64($data)
 {
     if (base64_encode(base64_decode($data)) === $data) {
